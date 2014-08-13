@@ -1,0 +1,22 @@
+Tile properties:
+----------------------------------------------------------------
+
+general type:
+--------------------------------
+- space
+- block
+- slope
+
+Primary type:
+--------------------------------
+- none
+- soil
+- rock
+- plant
+- mushroom
+
+Secondary type:
+--------------------------------
+- none
+- foliage
+

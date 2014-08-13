@@ -1,0 +1,39 @@
+Frame list format layout:
+----------------------------------------------------------------
+
+legs_walk_right				// Frame list name.
+32, 55						// Frame origo.
+frame						// Frame tag.
+10							// Frame length.
+60, 28, 44, 0, abcbd7ff		// Extended ASCII code, 
+40, 26, 43, 0, abcbd7ff		   glyph top left corner x and y,
+92, 29, 34, 0, 0a445aff		   rotation modifier from 0 to 7 and
+44, 22, 28, 0, 0a445aff		   glyph color in RGBA.
+44, 18, 26, 0, 328daeff
+46, 14, 27, 0, 328daeff
+46, 11, 28, 0, abcbd7ff
+frame						// Frame tag.
+10
+60, 27, 44, 0, abcbd7ff
+40, 27, 42, 0, abcbd7ff
+92, 29, 34, 0, 0a445aff
+44, 22, 29, 0, 0a445aff
+44, 18, 27, 0, 328daeff
+46, 14, 27, 0, 328daeff
+46, 11, 28, 0, abcbd7ff		// End of frame list.
+
+
+Details:
+--------------------------------
+All coordinates are given in pixel space, that is: x increases from left to 
+right and y from top to bottom.
+
+Rotations (and flips) are given around (and over) the top left corner as follows:
+- 0: No rotation
+- 1: Rotate CCW 90 degrees
+- 2: Rotate CCW 180 degrees
+- 3: Rotate CCW 270 degrees
+- 4: Flip in y direction.
+- 5: Rotate CCW 90 degrees and then flip in y direction 
+- 6: Rotate CCW 180 degrees and then flip in y direction 
+- 7: Rotate CCW 270 degrees and then flip in y direction 

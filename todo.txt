@@ -1,0 +1,10 @@
+	- Figure out tile physics, seriously.
+	- TileRecord should be able to tell edges occupied by the tile.
+	- TileKernel should be able to tell free edges around center tile.
+	- TilePhysics should be able to map TileKernels to indexes to CollisionPolygons.
+	- Implement the cell update mechanism and collision mapping by tile position.
+		- Figure out best way to deal with collision surface indexes.
+		- Probably just name surfaces in the construction method.
+		- Remove general polygon construction for now.
+	- Implement per tile material associated with the collision mapping.
+	- Write PhysicsCollision class that is constructed from collision information.

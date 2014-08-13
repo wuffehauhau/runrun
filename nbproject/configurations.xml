@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="algorithm" displayName="algorithm" projectFiles="true">
+          <itemPath>src/algorithm/flags.hpp</itemPath>
+          <itemPath>src/algorithm/powersoftwo.hpp</itemPath>
+          <itemPath>src/algorithm/staticarray2.hpp</itemPath>
+          <itemPath>src/algorithm/vectorutil.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="animation" displayName="animation" projectFiles="true">
+          <itemPath>src/animation/gameanimation.cpp</itemPath>
+          <itemPath>src/animation/gameanimation.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f10" displayName="biome" projectFiles="true">
+          <itemPath>src/biome/biome.hpp</itemPath>
+          <itemPath>src/biome/defaultbiome.hpp</itemPath>
+          <itemPath>src/biome/defaulttilevisualizer.hpp</itemPath>
+          <itemPath>src/biome/forestbiome.hpp</itemPath>
+          <itemPath>src/biome/foresttilevisualizer.cpp</itemPath>
+          <itemPath>src/biome/foresttilevisualizer.hpp</itemPath>
+          <itemPath>src/biome/tilevisualizer.cpp</itemPath>
+          <itemPath>src/biome/tilevisualizer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="camera" displayName="camera" projectFiles="true">
+          <itemPath>src/camera/camera.cpp</itemPath>
+          <itemPath>src/camera/camera.hpp</itemPath>
+          <itemPath>src/camera/view.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="engine" displayName="engine" projectFiles="true">
+          <itemPath>src/engine/engine.cpp</itemPath>
+          <itemPath>src/engine/engine.hpp</itemPath>
+          <itemPath>src/engine/gameinput.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="frame" displayName="frame" projectFiles="true">
+          <itemPath>src/frame/objectframe.cpp</itemPath>
+          <itemPath>src/frame/objectframe.hpp</itemPath>
+          <itemPath>src/frame/objectframeevent.hpp</itemPath>
+          <itemPath>src/frame/objectframegenerator.cpp</itemPath>
+          <itemPath>src/frame/objectframegenerator.hpp</itemPath>
+          <itemPath>src/frame/objectframelibrary.cpp</itemPath>
+          <itemPath>src/frame/objectframelibrary.hpp</itemPath>
+          <itemPath>src/frame/objectframelist.cpp</itemPath>
+          <itemPath>src/frame/objectframelist.hpp</itemPath>
+          <itemPath>src/frame/objectframestate.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="geometry" displayName="geometry" projectFiles="true">
+          <itemPath>src/geometry/aasquare.hpp</itemPath>
+          <itemPath>src/geometry/boundingbox.hpp</itemPath>
+          <itemPath>src/geometry/convexpolygon.hpp</itemPath>
+          <itemPath>src/geometry/intersectionsolution.hpp</itemPath>
+          <itemPath>src/geometry/intersectiontester.cpp</itemPath>
+          <itemPath>src/geometry/intersectiontester.hpp</itemPath>
+          <itemPath>src/geometry/line.hpp</itemPath>
+          <itemPath>src/geometry/polygonbuilder.cpp</itemPath>
+          <itemPath>src/geometry/polygonbuilder.hpp</itemPath>
+          <itemPath>src/geometry/segment.hpp</itemPath>
+          <itemPath>src/geometry/surfaceindex.hpp</itemPath>
+          <itemPath>src/geometry/transformations.cpp</itemPath>
+          <itemPath>src/geometry/transformations.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="glyph" displayName="glyph" projectFiles="true">
+          <itemPath>src/glyph/glyphrenderinfo.cpp</itemPath>
+          <itemPath>src/glyph/glyphrenderinfo.hpp</itemPath>
+          <itemPath>src/glyph/glyphset.cpp</itemPath>
+          <itemPath>src/glyph/glyphset.hpp</itemPath>
+          <itemPath>src/glyph/tiledynamicrenderdata.hpp</itemPath>
+          <itemPath>src/glyph/tiledynamicrenderinfo.hpp</itemPath>
+          <itemPath>src/glyph/tileinfo.hpp</itemPath>
+          <itemPath>src/glyph/tilestaticrenderdata.hpp</itemPath>
+          <itemPath>src/glyph/tilestaticrenderinfo.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="kernel" displayName="kernel" projectFiles="true">
+          <itemPath>src/kernel/edgeflags.hpp</itemPath>
+          <itemPath>src/kernel/kerneltesttype.hpp</itemPath>
+          <itemPath>src/kernel/pluskernel.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="main" displayName="main" projectFiles="true">
+          <itemPath>src/main/mainwindow.cpp</itemPath>
+          <itemPath>src/main/mainwindow.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="map" projectFiles="true">
+          <itemPath>src/map/map.cpp</itemPath>
+          <itemPath>src/map/map.hpp</itemPath>
+          <itemPath>src/map/mapgenerator.cpp</itemPath>
+          <itemPath>src/map/mapgenerator.hpp</itemPath>
+          <itemPath>src/map/mapphysics.hpp</itemPath>
+          <itemPath>src/map/maptemplatepixelkernel.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f8" displayName="metrics" projectFiles="true">
+          <itemPath>src/metrics/mapmetrics.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="object" displayName="object" projectFiles="true">
+          <itemPath>src/object/object.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="painter" displayName="painter" projectFiles="true">
+          <itemPath>src/painter/worldpainter.cpp</itemPath>
+          <itemPath>src/painter/worldpainter.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f7" displayName="physics" projectFiles="true">
+          <itemPath>src/physics/body.hpp</itemPath>
+          <itemPath>src/physics/collisionhull.cpp</itemPath>
+          <itemPath>src/physics/collisionhull.hpp</itemPath>
+          <itemPath>src/physics/collisionhullentry.hpp</itemPath>
+          <itemPath>src/physics/material.hpp</itemPath>
+          <itemPath>src/physics/pointmass.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="physicsengine"
+                       displayName="physicsengine"
+                       projectFiles="true">
+          <itemPath>src/physicsengine/intersectiontype.hpp</itemPath>
+          <itemPath>src/physicsengine/objectphysicsentry.hpp</itemPath>
+          <itemPath>src/physicsengine/physicsengine.cpp</itemPath>
+          <itemPath>src/physicsengine/physicsengine.hpp</itemPath>
+          <itemPath>src/physicsengine/tileintersectionentry.hpp</itemPath>
+          <itemPath>src/physicsengine/wallintersectionentry.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pixel" displayName="pixel" projectFiles="true">
+          <itemPath>src/pixel/pixelutil.cpp</itemPath>
+          <itemPath>src/pixel/pixelutil.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="player" displayName="player" projectFiles="true">
+          <itemPath>src/player/player.cpp</itemPath>
+          <itemPath>src/player/player.hpp</itemPath>
+          <itemPath>src/player/playeranimation.cpp</itemPath>
+          <itemPath>src/player/playeranimation.hpp</itemPath>
+          <itemPath>src/player/playerdirection.hpp</itemPath>
+          <itemPath>src/player/playerjump.hpp</itemPath>
+          <itemPath>src/player/playerstride.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="renderer" displayName="renderer" projectFiles="true">
+          <itemPath>src/renderer/glyphrenderer.cpp</itemPath>
+          <itemPath>src/renderer/glyphrenderer.hpp</itemPath>
+          <itemPath>src/renderer/tilerenderbuffer.hpp</itemPath>
+          <itemPath>src/renderer/tilerenderer.cpp</itemPath>
+          <itemPath>src/renderer/tilerenderer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f5" displayName="resource" projectFiles="true">
+          <itemPath>src/resource/mainresources.cpp</itemPath>
+          <itemPath>src/resource/mainresources.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ruukku" displayName="ruukku" projectFiles="true">
+          <logicalFolder name="config" displayName="config" projectFiles="true">
+            <itemPath>src/ruukku/config/packing.cpp</itemPath>
+            <itemPath>src/ruukku/config/packing.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="math" displayName="math" projectFiles="true">
+            <itemPath>src/ruukku/math/constants.hpp</itemPath>
+            <itemPath>src/ruukku/math/cubo.hpp</itemPath>
+            <itemPath>src/ruukku/math/field2.hpp</itemPath>
+            <itemPath>src/ruukku/math/field3.hpp</itemPath>
+            <itemPath>src/ruukku/math/ivec2.hpp</itemPath>
+            <itemPath>src/ruukku/math/ivec3.hpp</itemPath>
+            <itemPath>src/ruukku/math/mat3.hpp</itemPath>
+            <itemPath>src/ruukku/math/mat4.hpp</itemPath>
+            <itemPath>src/ruukku/math/pvec3.hpp</itemPath>
+            <itemPath>src/ruukku/math/pvec4.hpp</itemPath>
+            <itemPath>src/ruukku/math/rect.hpp</itemPath>
+            <itemPath>src/ruukku/math/rgb.hpp</itemPath>
+            <itemPath>src/ruukku/math/rgba.hpp</itemPath>
+            <itemPath>src/ruukku/math/rng.hpp</itemPath>
+            <itemPath>src/ruukku/math/roll.hpp</itemPath>
+            <itemPath>src/ruukku/math/vec2.hpp</itemPath>
+            <itemPath>src/ruukku/math/vec3.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="mesh" displayName="mesh" projectFiles="true">
+            <itemPath>src/ruukku/mesh/indexedprimitivelist.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/indexedprimitivelist.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/indexedvertexbuffer.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/indexedvertexbuffer.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/interleavebuffer.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/interleavebuffer.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/primitivelist.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/primitivelist.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/primitiveutil.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/shaderprogram.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/shaderprogram.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexarrayinfo.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexarrayinfo.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexattributeinfo.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexbuffer.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexbuffer.hpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexbufferinfo.cpp</itemPath>
+            <itemPath>src/ruukku/mesh/vertexbufferinfo.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="misc" displayName="misc" projectFiles="true">
+            <itemPath>src/ruukku/misc/uncopyable.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="opengl" displayName="opengl" projectFiles="true">
+            <itemPath>src/ruukku/opengl/glarraybuffer.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glbuffer.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/glbuffer.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glelementarraybuffer.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glerror.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/glerror.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glexception.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glfragmentshader.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glprogram.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/glprogram.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glresource.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glshader.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/glshader.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture2d.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture2d.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture3d.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltexture3d.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltypes.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/gltypetraits.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glutil.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glvertexarray.cpp</itemPath>
+            <itemPath>src/ruukku/opengl/glvertexarray.hpp</itemPath>
+            <itemPath>src/ruukku/opengl/glvertexshader.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pixel" displayName="pixel" projectFiles="true">
+            <itemPath>src/ruukku/pixel/pixelvolume.hpp</itemPath>
+            <itemPath>src/ruukku/pixel/rgba32.hpp</itemPath>
+            <itemPath>src/ruukku/pixel/surface.cpp</itemPath>
+            <itemPath>src/ruukku/pixel/surface.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pngpp" displayName="pngpp" projectFiles="true">
+            <itemPath>src/ruukku/pngpp/AUTHORS</itemPath>
+            <itemPath>src/ruukku/pngpp/COPYING</itemPath>
+            <itemPath>src/ruukku/pngpp/INSTALL</itemPath>
+            <itemPath>src/ruukku/pngpp/README</itemPath>
+            <itemPath>src/ruukku/pngpp/color.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/config.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/consumer.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/convert_color_space.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/end_info.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/error.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/ga_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/generator.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/gray_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/image.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/image_info.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/index_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/info.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/info_base.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/io_base.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/packed_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/palette.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/pixel_buffer.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/pixel_traits.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/png.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/reader.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/require_color_space.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/rgb_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/rgba_pixel.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/streaming_base.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/tRNS.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/types.hpp</itemPath>
+            <itemPath>src/ruukku/pngpp/writer.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <itemPath>src/ruukku/system/displayattributes.hpp</itemPath>
+            <itemPath>src/ruukku/system/displaymode.hpp</itemPath>
+            <itemPath>src/ruukku/system/endianness.hpp</itemPath>
+            <itemPath>src/ruukku/system/keyboardstate.cpp</itemPath>
+            <itemPath>src/ruukku/system/keyboardstate.hpp</itemPath>
+            <itemPath>src/ruukku/system/mousestate.hpp</itemPath>
+            <itemPath>src/ruukku/system/sdl.cpp</itemPath>
+            <itemPath>src/ruukku/system/sdl.hpp</itemPath>
+            <itemPath>src/ruukku/system/window.cpp</itemPath>
+            <itemPath>src/ruukku/system/window.hpp</itemPath>
+            <itemPath>src/ruukku/system/windowmanager.cpp</itemPath>
+            <itemPath>src/ruukku/system/windowmanager.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>src/ruukku/version.txt</itemPath>
+        </logicalFolder>
+        <logicalFolder name="shader" displayName="shader" projectFiles="true">
+          <itemPath>src/shader/glyphshader.cpp</itemPath>
+          <itemPath>src/shader/glyphshader.hpp</itemPath>
+          <itemPath>src/shader/tileshader.cpp</itemPath>
+          <itemPath>src/shader/tileshader.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="system" displayName="system" projectFiles="true">
+          <itemPath>src/system/timer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f9" displayName="tile" projectFiles="true">
+          <itemPath>src/tile/tile.cpp</itemPath>
+          <itemPath>src/tile/tile.hpp</itemPath>
+          <itemPath>src/tile/tileattributes.hpp</itemPath>
+          <itemPath>src/tile/tilefactory.hpp</itemPath>
+          <itemPath>src/tile/tilekernel.hpp</itemPath>
+          <itemPath>src/tile/tileorientation.hpp</itemPath>
+          <itemPath>src/tile/tilephysics.cpp</itemPath>
+          <itemPath>src/tile/tilephysics.hpp</itemPath>
+          <itemPath>src/tile/tilerecord.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f6" displayName="time" projectFiles="true">
+          <itemPath>src/time/worldtime.cpp</itemPath>
+          <itemPath>src/time/worldtime.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="util" displayName="util" projectFiles="true">
+          <itemPath>src/util/datafile.cpp</itemPath>
+          <itemPath>src/util/datafile.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="world" projectFiles="true">
+          <itemPath>src/world/cell.hpp</itemPath>
+          <itemPath>src/world/cellflags.hpp</itemPath>
+          <itemPath>src/world/world.cpp</itemPath>
+          <itemPath>src/world/world.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>src/main.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="Geometry / IntersectionTester"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/geometry_intersectiontester.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="Geometry / Segment"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/geometry_segment.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../MinGW/msys/1.0/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/runrun</output>
+          <linkerAddLib>
+            <pElem>../../MinGW/msys/1.0/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2main</linkerLibLibItem>
+            <linkerLibLibItem>glew32.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2.dll</linkerLibLibItem>
+            <linkerLibLibItem>png12.dll</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <item path="src/algorithm/flags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/powersoftwo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/staticarray2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/vectorutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/animation/gameanimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/animation/gameanimation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/biome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/defaultbiome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/defaulttilevisualizer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/biome/forestbiome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/foresttilevisualizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/biome/foresttilevisualizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/tilevisualizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/biome/tilevisualizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/camera/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/camera/camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/camera/view.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/engine/engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/engine/engine.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/engine/gameinput.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframe.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframeevent.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframegenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframegenerator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelibrary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelibrary.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelist.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframestate.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/aasquare.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/boundingbox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/convexpolygon.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/intersectionsolution.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/intersectiontester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/intersectiontester.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/line.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/polygonbuilder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/geometry/polygonbuilder.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/segment.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/surfaceindex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/transformations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/geometry/transformations.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphrenderinfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphrenderinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphset.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphset.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tiledynamicrenderdata.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/glyph/tiledynamicrenderinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/glyph/tileinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tilestaticrenderdata.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tilestaticrenderinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/edgeflags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/kerneltesttype.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/pluskernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main/mainwindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main/mainwindow.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/map/map.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/mapgenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/map/mapgenerator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/mapphysics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/maptemplatepixelkernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/metrics/mapmetrics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/object/object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/painter/worldpainter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/painter/worldpainter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/body.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhull.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhull.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhullentry.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/material.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/pointmass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physicsengine/intersectiontype.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/objectphysicsentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/physicsengine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/physicsengine.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/tileintersectionentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/wallintersectionentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/pixel/pixelutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pixel/pixelutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player/player.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playeranimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player/playeranimation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerdirection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerjump.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerstride.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/glyphrenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/renderer/glyphrenderer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/resource/mainresources.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/resource/mainresources.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/config/packing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/config/packing.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/constants.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/cubo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/field2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/field3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/ivec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/ivec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/mat3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/mat4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/pvec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/pvec4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rgb.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rgba.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rng.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/roll.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/vec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/vec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedprimitivelist.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedprimitivelist.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedvertexbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedvertexbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/interleavebuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/interleavebuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitivelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitivelist.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitiveutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/shaderprogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/shaderprogram.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexarrayinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexarrayinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexattributeinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbufferinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbufferinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/misc/uncopyable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glbuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glelementarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glerror.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glerror.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glexception.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glfragmentshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glprogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glprogram.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glresource.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture2d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture2d.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture3d.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltypes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltypetraits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexarray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexarray.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/pixelvolume.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/rgba32.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/surface.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/AUTHORS" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/COPYING" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/INSTALL" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/README" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/color.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/config.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/consumer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/convert_color_space.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/end_info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/error.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/ga_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/generator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/gray_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/image.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/image_info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/index_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/info_base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/io_base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/packed_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/palette.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/pixel_buffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/pixel_traits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/png.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/reader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/require_color_space.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/rgb_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/rgba_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/streaming_base.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/tRNS.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/types.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/writer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/displayattributes.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/displaymode.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/endianness.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/keyboardstate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/keyboardstate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/mousestate.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/sdl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/sdl.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/window.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/windowmanager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/windowmanager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/version.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/shader/glyphshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/shader/glyphshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/shader/tileshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/shader/tileshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/system/timer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tile/tile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tileattributes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilefactory.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilekernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tileorientation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilephysics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tile/tilephysics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilerecord.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/time/worldtime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/time/worldtime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/util/datafile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/datafile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/cell.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/cellflags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/world.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/world/world.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/geometry_intersectiontester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="tests/geometry_segment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../MinGW/msys/1.0/include</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/runrun</output>
+          <linkerAddLib>
+            <pElem>../../MinGW/msys/1.0/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2main</linkerLibLibItem>
+            <linkerLibLibItem>glew32.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2.dll</linkerLibLibItem>
+            <linkerLibLibItem>png12.dll</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <item path="src/algorithm/flags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/powersoftwo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/staticarray2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/algorithm/vectorutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/animation/gameanimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/animation/gameanimation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/biome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/defaultbiome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/defaulttilevisualizer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/biome/forestbiome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/foresttilevisualizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/biome/foresttilevisualizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/biome/tilevisualizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/biome/tilevisualizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/camera/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/camera/camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/camera/view.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/engine/engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/engine/engine.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/engine/gameinput.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframe.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframeevent.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframegenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframegenerator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelibrary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelibrary.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/frame/objectframelist.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/frame/objectframestate.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/aasquare.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/boundingbox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/convexpolygon.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/intersectionsolution.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/intersectiontester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/intersectiontester.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/geometry/line.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/polygonbuilder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/geometry/polygonbuilder.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/segment.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/surfaceindex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/geometry/transformations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/geometry/transformations.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphrenderinfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphrenderinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphset.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/glyph/glyphset.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tiledynamicrenderdata.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/glyph/tiledynamicrenderinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/glyph/tileinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tilestaticrenderdata.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/glyph/tilestaticrenderinfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/edgeflags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/kerneltesttype.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/kernel/pluskernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main/mainwindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main/mainwindow.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/map/map.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/mapgenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/map/mapgenerator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/mapphysics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/map/maptemplatepixelkernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/metrics/mapmetrics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/object/object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/painter/worldpainter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/painter/worldpainter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/body.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhull.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhull.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/collisionhullentry.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/material.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physics/pointmass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/physicsengine/intersectiontype.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/objectphysicsentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/physicsengine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/physicsengine.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/tileintersectionentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/physicsengine/wallintersectionentry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/pixel/pixelutil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pixel/pixelutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player/player.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playeranimation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player/playeranimation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerdirection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerjump.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/player/playerstride.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/glyphrenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/renderer/glyphrenderer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/renderer/tilerenderer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/resource/mainresources.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/resource/mainresources.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/config/packing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/config/packing.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/constants.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/cubo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/field2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/field3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/ivec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/ivec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/mat3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/mat4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/pvec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/pvec4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rgb.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rgba.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/rng.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/roll.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/vec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/math/vec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedprimitivelist.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedprimitivelist.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedvertexbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/indexedvertexbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/interleavebuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/interleavebuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitivelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitivelist.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/primitiveutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/shaderprogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/shaderprogram.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexarrayinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexarrayinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexattributeinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbufferinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/mesh/vertexbufferinfo.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/misc/uncopyable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glbuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glbuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glelementarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glerror.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glerror.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glexception.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glfragmentshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glprogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glprogram.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glresource.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture2d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture2d.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltexture3d.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltypes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/gltypetraits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glutil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexarray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexarray.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/opengl/glvertexshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/pixelvolume.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/rgba32.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/pixel/surface.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/AUTHORS" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/COPYING" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/INSTALL" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/README" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/color.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/config.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/consumer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/convert_color_space.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/end_info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/error.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/ga_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/generator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/gray_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/image.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/image_info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/index_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/info.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/info_base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/io_base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/packed_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/palette.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/pixel_buffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/pixel_traits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/png.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/reader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/require_color_space.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/rgb_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/rgba_pixel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/streaming_base.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/tRNS.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/types.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/pngpp/writer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/displayattributes.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/displaymode.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/endianness.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/keyboardstate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/keyboardstate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/mousestate.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/sdl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/sdl.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/window.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ruukku/system/windowmanager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/system/windowmanager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/ruukku/version.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/shader/glyphshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/shader/glyphshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/shader/tileshader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/shader/tileshader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/system/timer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tile/tile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tileattributes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilefactory.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilekernel.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tileorientation.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilephysics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tile/tilephysics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tile/tilerecord.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/time/worldtime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/time/worldtime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/util/datafile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/datafile.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/cell.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/cellflags.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world/world.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/world/world.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/geometry_intersectiontester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="tests/geometry_segment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

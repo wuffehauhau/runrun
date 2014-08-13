@@ -1,0 +1,42 @@
+Copyright (C) Jani Salo 2014 -
+runrun
+
+version 0.0.24 / 2014-07-31:
+- Rewrote a lot of the map generation and tile code.
+
+version 0.0.22 / 2014-07-29:
+- Extended the glyph table.
+
+version 0.0.21 / 2014-07-28:
+- Rewrote some of the physics for stability.
+- Started working on slopes.
+
+version 0.0.19 / 2014-07-27:
+- Basic physics and collision detection working.
+- A lot of things I've already forgotten about.
+
+version 0.0.9 / 2014-06-23:
+- Implemented a lot of map classes.
+- Implemented generalized world renderer.
+- Cleaned up engine code.
+- A lot of small tweaks.
+
+version 0.0.6 / 2014-06-17:
+- Tile renderer working as planned.
+- Implemented a lot of stuff for animation.
+- Added a player class and some physics.
+- Small fixes.
+
+version 0.0.4 / 2014-06-09:
+- Tile renderer kind of finished.
+- Most of camera functionality implemented.
+
+version 0.0.3 / 2014-06-01:
+- Added the ability to construct frame lists from data files.
+
+version 0.0.2 / 2014-05-30:
+- Glyph sprite rendering works now.
+- Main loop outlined.
+
+version 0.0.1 / 2014-05-28:
+- The project was started.
